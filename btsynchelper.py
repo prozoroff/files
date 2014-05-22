@@ -8,7 +8,7 @@ from client import Client
 class BtsyncHelper:
 
         global client
-        client = Client(host='127.0.0.1', port='8888', username='admin', password='zxcv1234')
+        client = Client(host='127.0.0.1', port='8888', username='admin', password='******')
 
         def get_folders(self):
             return client.sync_folders
